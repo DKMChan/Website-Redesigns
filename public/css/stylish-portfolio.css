@@ -5,6 +5,7 @@
  */
 
 /* Global Styles */
+@import url("https://fonts.googleapis.com/css?family=News+Cycle");
 
 html,
 body {
@@ -173,6 +174,19 @@ hr.small {
     -o-background-size: cover;
 }
 
+@media screen and (max-width: 500px) {
+  .header .callout {
+    -webkit-background-attachment: scroll;
+    -moz-background-attachment: scroll;
+    -o-background-attachment: scroll;
+    background-attachment: scroll;
+    } 
+    
+    
+}
+
+
+
 /* About */
 
 .about {
@@ -201,6 +215,7 @@ hr.small {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    font-family: 'News Cycle', sans-serif;
 }
 
 /* Portfolio */
