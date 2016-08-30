@@ -176,7 +176,7 @@ hr.small {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    overflow: hidden;
+   
   
 }
 
@@ -223,7 +223,7 @@ hr.small {
     background-size: cover;
     -o-background-size: cover;
     font-family: 'News Cycle', sans-serif;
-    overflow: hidden;
+    
   
 }
 
