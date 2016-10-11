@@ -5,11 +5,15 @@ var express = require('express');
 var htmlController = require('./controllers/htmlController');
 var app = express();
 
-var port = 8080;
+
 
 app.use('/assets',express.static(__dirname + '/public'));
 //app.use(favicon(__dirname + '/public/img/favicon.ico'));
 app.set('view engine', 'ejs');
 
 htmlController(app);
-app.listen(port);
+
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, function(){
+  console.log('Express server listening on port ' + app.get('port'));
+});

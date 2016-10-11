@@ -1,10 +1,10 @@
 {
-  "name": "wun2free",
+  "name": "wun2free-redesign",
   "version": "1.0.0",
   "description": "mock website for wun2free.com",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "author": "",
   "license": "ISC"
